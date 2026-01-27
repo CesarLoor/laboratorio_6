@@ -8,8 +8,6 @@ export default [
         },
         rules: {
             semi: ['error', 'always'],
-            quotes: ['error', 'single'],
-            'no-trailing-spaces': ['error'],
             'max-lines-per-function': ['error', { max: 20 }],
             'max-len': ['error', { code: 120 }],
             'no-irregular-whitespace': ['error'],

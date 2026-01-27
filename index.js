@@ -1,9 +1,9 @@
-const express = require("express");
+const express = require('expres');
 const app = express();
 const port = 3000;
 
 app.get('/',(req, res)=>{
-    res.send("Integración continua");
+    res.send('Integración continua');
 });
 
 app.listen(port, () => {
