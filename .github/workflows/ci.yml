@@ -20,6 +20,9 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
+      - name: Ejecutar ESLint
+        run: npm run lint
+
       - name: Ejecutar tests
         run: npm test
 
