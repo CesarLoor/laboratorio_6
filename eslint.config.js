@@ -13,7 +13,6 @@ export default [
             'max-lines-per-function': ['error', { max: 20 }],
             'max-len': ['error', { code: 120 }],
             'no-irregular-whitespace': ['error'],
-            
         }
     }
 ]
