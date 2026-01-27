@@ -8,7 +8,8 @@ export default [
         },
         rules: {
             semi: ['error', 'always'],
-            quote: ['error', 'single']
+            quote: ['error', 'single'],
+            'max-lines-per-function': ['error', { max: 20 }]
         }
     }
 ]
