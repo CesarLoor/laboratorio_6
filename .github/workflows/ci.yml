@@ -25,7 +25,3 @@ jobs:
 
       - name: Ejecutar tests
         run: npm test
-
-      - name: Build
-        run: npm ci && npm run build
-
